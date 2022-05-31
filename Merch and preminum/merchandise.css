@@ -8,8 +8,8 @@
 
 .item-plan{
     width: 300px;
-    border-radius: 25px;
-    box-shadow: 0 0 5px white;
+    border-radius: 26px;
+    box-shadow: 0 0 6px white;
     overflow:hidden;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -18,7 +18,7 @@
     margin: 15px;
 }
 .pricing-plan_header{
-    padding:25px;
+    padding:26px;
     background-color:rgb(22, 59, 182);
     color: white;
 }
@@ -29,7 +29,7 @@
 }
 
 .pricing-plan_cost{
-    font-size: 2em;
+    font-size: 3em;
     margin: 0;
     text-align: center;
     color:white;
@@ -61,7 +61,7 @@
 }
 
 .pricing-plan_action{
-    padding: 25px;
+    padding: 26px;
     border-top: 1px solid white;
     display: flex;
     flex-direction: column;
