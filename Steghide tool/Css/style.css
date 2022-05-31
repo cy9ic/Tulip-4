@@ -1,0 +1,32 @@
+.cont {
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    padding: 50px;
+}
+
+.img-cont {
+    margin: 5rem;
+    display: flex;
+
+}
+
+.img1 {
+    margin-right: 15rem;
+    margin-bottom: 10rem;
+}
+
+img {
+    width: 300px;
+}
+
+
+.opa {
+    opacity: 0;
+    width: 10px;
+    padding-bottom: 100px;
+}

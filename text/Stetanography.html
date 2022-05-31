@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="steganography.css" type="text/css">
+    <script src="Steganography.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="../Images//tulip.png">
+    <link rel="stylesheet" href="qr.css">
+    <title>Steganography</title>
+</head>
+
+<body>
+    <div class="uses">
+        <h2>STEGANOGRAPHY</h2>
+        <p><strong>Steganography</strong> is the use of various methods to hide information from unwanted eyes. In
+            ancient times, steganography was mostly done physically.
+            The oldest documented case of steganography dates to 500 BC, in which Histiaeus, the ruler of Milteus,
+            tattooed a message on the shaved head of one of his slaves
+            and let the hair grow back. He then sent the slave to the Aristagoras, his son-in-law, who shaved the
+            slave's head again and revealed the message
+            In the centuries that followed, more modern forms of steganography were invented, such as invisible inks.
+        <p> Today, steganography has moved to the digital world.
+            “Steganography by definition is the hiding of one file within another,” says Ira Winkler, lead security
+            principal at Trustwave.Steganography (/ˌstɛɡəˈnɒɡrəfi/
+            (audio speaker iconlisten) STEG-ə-NOG-rə-fee) is the practice of concealing a message within another message
+            or a physical object. In computing/electronic contexts,
+            a computer file, message, image, or video is concealed within another file, message, image, or video. The
+            word steganography comes from Greek steganographia, which
+            combines the words stegare, meaning "covered or concealed", and -graphia (γραφή) meaning "writing".
+            The first recorded use of the term was in 1499 by Johannes Trithemius in his Steganographia, a treatise on
+            cryptography and steganography, disguised as a book on magic. </p>
+        <img class="width" id="pic" src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Steganography.png">
+        <style>
+            #pic {
+                border-radius: 62px;
+            }
+        </style>
+        May be in invisible ink between the visible lines of a private letter. Some implementations of steganography
+        that lack a shared secret are forms of security through obscurity,
+        and key-dependent steganographic schemes adhere to Kerckhoffs's principle.
+        The advantage of steganography over cryptography alone is that the intended secret message does not attract
+        attention to itself as an object of scrutiny. Plainly visible encrypted messages,
+        no matter how unbreakable they are, arouse interest and may in themselves be incriminating in countries in
+        which encryption is illegal.
+        <p>
+            Whereas cryptography is the practice of protecting the contents of a message alone, steganography is
+            concerned with concealing the fact that a secret message is being sent and its contents.
+            Steganography includes the concealment of information within computer files. In digital steganography,
+            electronic communications may include steganographic coding inside of a transport layer,
+            such as a document file, image file, program, or protocol. Media files are ideal for steganographic
+            transmission because of their large size. For example, a sender might start with an innocuous
+            image file and adjust the color of every hundredth pixel to correspond to a letter in the alphabet. The
+            change is so subtle that someone who is not specifically looking for it is unlikely to notice the change.
+        </p>
+        </p>
+    </div>
+    <div class="uses">
+        <h2>HOW IT WORKS ?</h2>
+        <img class="main" src="https://cdn-blog.adafruit.com/uploads/2021/07/1624982993628-4-cryptography-600x299.jpg"
+            alt="working">
+        <p>
+            Steganography works by hiding information in a way that doesn't arouse suspicion. One of the most popular
+            techniques is 'least significant bit (LSB) steganography. In this type of steganography, the information
+            hider
+            embeds the secret information in the least significant bits of a media file
+            For instance, in an image file each pixel is comprised of three bytes of data corresponding to the colors
+            red,
+            green, and blue (some image formats allocate an additional fourth byte to transparency, or 'alpha').
+            LSB steganography changes the last bit of each of those bytes to hide one bit of data. So, to hide one
+            megabyte
+            of data using this method, you'll need an eight-megabyte image file.
+        <p>
+            Since modifying the last bit of the pixel value doesn't result in a visually perceptible change to the
+            picture,
+            a person viewing the original and the steganographically modified images won't be able to tell the
+            difference.
+        </p>
+        </p>
+    </div>
+    <div class="uses">
+        <h2><b>History of Steganography</b></h2>
+        <img class="domain"
+            src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Chart_in_the_hand_of_Dr_John_Dee._Steganographiae.png"
+            alt="History of steganography">
+        <p>
+            The first recorded uses of steganography can be traced back to 440 BC in Greece, when Herodotus mentions two
+            examples in his Histories. Histiaeus sent a message to his vassal, Aristagoras, by shaving the head of his
+            most
+            trusted servant, "marking" the message onto his scalp,
+            then sending him on his way once his hair had regrown, with the instruction, "When thou art come to Miletus,
+            bid
+            Aristagoras shave thy head, and look thereon." Additionally, Demaratus sent a warning about a forthcoming
+            attack
+            to Greece by writing it directly on the wooden backing
+            of a wax tablet before applying its beeswax surface. Wax tablets were in common use then as reusable writing
+            surfaces, sometimes used for shorthand.
+            In his work Polygraphiae, Johannes Trithemius developed his so-called "Ave-Maria-Cipher" that can hide
+            information in a Latin praise of God. "Auctor Sapientissimus Conseruans Angelica Deferat Nobis Charitas
+            Potentissimi Creatoris" for example contains the concealed word VICIPEDIA.
+        </p>
+    </div>
+    <div class="uses">
+        <h1>Countermeasure And Dectection</h1>
+        <p>
+            Detecting physical steganography requires a careful physical examination, including the use of
+            magnification,
+            developer chemicals, and ultraviolet light. It is a time-consuming process with obvious resource
+            implications,
+            even in countries that employ many people to spy on their fellow nationals. However, it is feasible to
+            screen
+            mail of certain suspected
+            individuals or institutions, such as prisons or prisoner-of-war (POW) camps.
+            During World War II, prisoner of war camps gave prisoners specially-treated paper that would reveal
+            invisible
+            ink. An article in the 24 June 1948 issue of Paper Trade Journal by the Technical Director of the United
+            States
+            Government Printing Office had Morris S. Kantrowitz describe in general terms the development of this paper.
+            Three prototype papers
+            (Sensicoat, Anilith, and Coatalith) were used to manufacture postcards and stationery provided to German
+            prisoners of war in the US and Canada. If POWs tried to write a hidden message, the special paper rendered
+            it
+            visible. The US granted at least two patents related to the technology, one to Kantrowitz, U.S. Patent
+            2,515,232,
+            <img class="main"
+                src="https://upload.wikimedia.org/wikipedia/commons/8/8e/HP_Color_Laserjet_3700_schutz_g.jpg"
+                alt="Yellow dots from a laser printer">
+            them against the current
+            "Water-Detecting paper and Water-Detecting Coating Composition Therefor," patented 18 July 1950, and an
+            earlier
+            one, "Moisture-Sensitive Paper and the Manufacture Thereof," U.S. Patent 2,445,586, patented 20 July 1948. A
+            similar strategy issues prisoners with writing paper ruled with a water-soluble ink that runs in contact
+            with
+            water-based invisible ink.
+        <p>
+            In computing, steganographically encoded package detection is called steganalysis. The simplest method to
+            detect
+            modified files, however, is to compare them to known originals. For example, to detect information being
+            moved
+            through the graphics on a website, an analyst can maintain known clean copies of the materials and then
+            compare
+            contents of the site. The differences, if the carrier is the same, comprise the payload. In general, using
+            extremely high compression rates makes steganography difficult but not impossible. Compression errors
+            provide a
+            hiding place for data, but high compression reduces the amount of data available to hold the payload,
+            raising
+            the encoding density, which facilitates
+            easier detection (in extreme cases, even by casual observation).</p>
+        There are a variety of basic tests that can be done to identify whether or not a secret message exists. This
+        process is not concerned with the extraction of the message, which is a different process and a separate step.
+        The most basic approaches of steganalysis are visual or aural attacks, structural attacks, and statistical
+        attacks. These approaches attempt to detect
+        the steganographic algorithms that were used. These algorithms range from unsophisticated to very sophisticated,
+        with early algorithms being much easier to detect due to statistical anomalies that were present. The size of
+        the message that is being hidden is a factor in how difficult it is to detect. The overall size of the cover
+        object also plays a factor as well.
+        If the cover object is small and the message is large,this can distort the statistics and make it easier to
+        detect. A larger cover object with a small message decreases the statistics and gives it a better chance of
+        going unnoticed.
+        <p>
+            <img class="domain"
+                src="https://images.idgesg.net/images/article/2019/11/cso_nw_blocks_of_data_multicolored_cubes_encryption_mining_rollout_by_matejmo_gettyimages-913069604_2400x1600-100816411-large.jpg?auto=webp&quality=85,70">
+            Steganalysis that targets a particular algorithm has much better success as it is able to key in on the
+            anomalies that are left behind. This is because the analysis can perform a targeted search to discover known
+            tendencies since it is aware of the behaviors that it commonly exhibits. When analyzing an image the least
+            significant bits of many images are actually not random.
+            The camera sensor, especially lower-end sensors are not the best quality and can introduce some random bits.
+            This can also be affected by the file compression done on the image. Secret messages can be introduced into
+            the
+            least significant bits in an image and then hidden. A steganography tool can be used to camouflage the
+            secret
+            message in the least significant bits but it can introduce a random area that is too perfect.
+            This area of perfect randomization stands out and can be detected by comparing the least significant bits to
+            the
+            next-to-least significant bits on an image that hasn't been compressed.
+        </p>
+        Generally, though, there are many techniques known to be able to hide messages in data using steganographic
+        techniques. None are, by definition, obvious when users employ standard applications, but some can be detected
+        by specialist tools. Others, however, are resistant to detection—or rather it is not possible to reliably
+        distinguish data containing a hidden message from data containing just noise—even when the most sophisticated
+        analysis is performed.
+        Steganography is being used to conceal and deliver more effective cyber attacks, referred to as Stegware. The
+        term Stegware was first introduced in 2017[54] to describe any malicious operation involving steganography as a
+        vehicle to conceal an attack. Detection of steganography is challenging, and because of that, not an adequate
+        defence. Therefore, the only way of defeating the threat is to transform data in a way that destroys any hidden
+        messages, a process called Content Threat Removal.
+        </p>
+    </div>
+    <div class="uses">
+        <h1>Alleged use by intelligence services</h1>
+        <img class="right" id="resize"
+            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Microdot_camera_markiv.jpg">
+        <style>
+            #resize {
+                width: 200px;
+                height: 200px;
+            }
+        </style>
+
+        <p>
+            In 2010, the Federal Bureau of Investigation alleged that the Russian foreign intelligence service uses
+            customized steganography software for embedding encrypted text messages inside image files for certain
+            communications with "illegal agents" (agents without diplomatic cover) stationed abroad.
+            On April 23, 2019 the U.S. Department of Justice unsealed an indictment charging Xiaoqing Zheng, a
+            Chinese
+            businessman and former Principal Engineer at General Electric, with 14 counts of conspiring to steal
+            intellectual property and trade secrets from General Electric. Zheng had allegedly used steganography to
+            exfiltrate 20,000 documents from General Electric to Tianyi Aviation Technology Co. in Nanjing, China,
+            a company the FBI accused him of starting with backing from the Chinese government
+        </p>
+    </div>
+
+    <div class="long" style="background-color: #166d3b;
+    background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);">
+        <h1>Steganography Online</h1>
+        <img src="https://miro.medium.com/max/1400/1*dQyfOpFWmSxrmdOcQgW6OQ.jpeg"  alt="" class="mona">
+   
+       <p> To encode a message into a binary code,enter your text and hit the Encode button.
+        Save the last image, it will contain your hidden message.
+        <br>
+        Remember, the more text you want to hide, the larger the image has to be. In case you chose an image that is
+        too
+        small to hold your message you will be informed.
+        <br>
+        Neither the image nor the message you hide will be at any moment transmitted over the web, all the magic
+        happens
+        within your browser.
+    </p>
+   
+</div>
+<div class="uses">
+    
+    <h1>Conclusion</h1>
+    <p>
+        Steganography is the technique of hiding secret data within an ordinary, non-secret, file or message in
+        order to
+        avoid detection; the secret data is then extracted at its destination. The use of steganography can be
+        combined 
+        with encryption as an extra step for hiding or protecting data. The word steganography is derived from the
+        Greek
+        words steganos (meaning hidden or covered) and the Greek root graph (meaning to write).
+        Steganography can be used to conceal almost any type of digital content, including text, image, video or
+        audio
+        content; the data to be hidden can be hidden inside almost any other type of digital content. The content to
+        be
+        concealed through steganography -- called hidden text -- is often encrypted before being incorporated into
+        the
+        innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed
+        in some way in order to increase the difficulty of detecting the secret content.
+    </p>
+</div>
+</body>
+
+</html>

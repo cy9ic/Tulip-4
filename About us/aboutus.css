@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  sans-serif;
+    box-sizing: border-box;
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color:  #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);;
+}
+.about img{
+    height: auto;
+    width: 420px;
+    border-radius: 50px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+
+}
+span{
+    color: #f9004d;
+
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.two{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+}
+.card{
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+
+    font-family: roboto;
+    border-radius: 18px;
+    background-color: #b8c6db;
+background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+
+    box-shadow: 5px 5px 15px rgba(0,0,0,0); 
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 10px;
+}
+.card-image{
+    grid-area: image;
+    background: url(harkaran.jpeg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.card-image1{
+    grid-area: image;
+    background: url(kaif.jpeg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.card-image2{
+    grid-area: image;
+    background: url(khitis.jpeg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+   
+}
+.card-image3{
+    grid-area: image;
+    background: url(harshit.jpeg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.card-text{
+    grid-area: text;
+    margin: 25px;
+}
+.card-text .date{
+    color: rgb(255, 7, 110);
+    font-size: 13px;
+}
+.card-text p {
+    color:black;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text h2{
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+   
+    background-color: #42378f;
+background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+}
+.card-stats .stat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color:white;
+}
+.card-stats .type{
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats .value{
+    font-size: 22px;
+    font-weight: 500;
+}
+.card-stats .border{
+    border-left: 1px solid rgb(172,26,87);
+    border-right: 1px solid rgb(172,26,87);
+}
+.card:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}

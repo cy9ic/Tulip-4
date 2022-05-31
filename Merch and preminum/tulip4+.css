@@ -1,0 +1,107 @@
+.pricing-plan{
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px white;
+    overflow:hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color:white;
+    margin: 15px;
+    margin-top: 100px;
+}
+
+.pricing-plan_header{
+    padding:25px;
+    background-color:rgb(22, 137, 182);
+    color: white;
+}
+
+.pricing-plan_title{
+    margin: 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.pricing-plan_summary{
+    margin: 0;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.pricing-price_description{
+    padding: 25px;
+}
+
+.pricing-price_list{
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-price_feature{
+    list-style: none;
+    margin: 0;
+    padding-left: 25px;
+    position: relative;
+    font-size: 0.9em;
+}
+
+.pricing-price_feature:not(:last-child){
+    margin-bottom: 0.5em;
+
+}
+
+.pricing-price_feature::before{
+    content: "\2714";
+    color:rgb(15, 190, 15);
+    position: absolute;
+    left: 0;
+}
+
+.pricing-plan_action{
+    padding: 25px;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-plan_botton{
+    display: inline-block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    text-decoration: none;
+    color:rgb(22, 137, 182);
+    background:white;
+    border-radius: 5px;
+    border: 1px solid rgb(22, 137, 182);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+
+}
+
+.pricing-plan_botton:hover{
+    background: #009578;
+    color:white;
+}
+
+.pricing-plan_cost{
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+    color:white;
+}
+
+.pricing-plan_text{
+    font-size: 0.9em;
+    text-align: center;
+    margin:0 0 10px 0;
+}
+
+.pricing-plan_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
