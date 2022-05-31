@@ -2,10 +2,12 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
   <title>Tulip4 - Membership / Login Form</title>
 
   <script>
+  
     function preventFormSubmit(){
     var forms=document.querySelectorAll('form');;
     for (var i=0;i<forms.length;i++){
